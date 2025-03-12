@@ -1,0 +1,16 @@
+/* Fireworks.css */
+.fireworks-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.fireworks-button {
+  position: relative;
+  z-index: 10000;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 20px;
+}

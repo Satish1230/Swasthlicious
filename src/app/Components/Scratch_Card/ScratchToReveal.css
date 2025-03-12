@@ -1,0 +1,48 @@
+/* ScratchToReveal.css */
+
+.scratch-container {
+  position: relative;
+  width: 300px; /* Adjust as needed */
+  height: 200px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out; /* Smooth zoom transition */
+}
+
+.scratch-container.zoomed {
+  transform: scale(1.5); /* Change scale factor as desired */
+}
+
+.hidden-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffd700; /* Gold background (or any color/image) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.scratch-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  touch-action: none; /* Prevent default touch scrolling */
+  cursor: crosshair;
+}
+
+.scratch-prompt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 1.2rem;
+  color: #fff;
+  pointer-events: none; /* Allow pointer events to pass through */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}

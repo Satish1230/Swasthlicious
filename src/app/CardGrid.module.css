@@ -1,0 +1,22 @@
+.carousel {
+  margin: 12px;
+  padding: 12px;
+}
+
+@media (min-width: 1024px) {
+  .carousel {
+    padding: 40px 100px;          
+  }
+}
+@media (min-width: 768px) {
+  .carousel {
+    padding: 30px;
+    /* margin-left: -31px; */
+  }
+  .bannerImage {
+    width: 20px;
+    height: auto;
+  }
+}
+
+

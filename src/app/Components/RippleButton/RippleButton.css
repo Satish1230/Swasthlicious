@@ -1,0 +1,21 @@
+/* RippleBackground.css */
+.ripple-container {
+  position: relative;
+  overflow: hidden; /* Ensures the ripple doesn't extend outside the container */
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3); /* Adjust the ripple color & opacity */
+  transform: scale(0);
+  animation: ripple-animation 600ms linear;
+  pointer-events: none;
+}
+
+@keyframes ripple-animation {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,47 @@
+/* Header.module.css */
+
+/* Header container */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* ensures the header stays above other elements */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background-color: #f9f9f9;
+}
+
+/* Logo text */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: green; /* orange text */
+}
+
+/* Nav links container */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Each link style */
+.link {
+  color: green;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Contact Us button */
+.contactBtn {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
