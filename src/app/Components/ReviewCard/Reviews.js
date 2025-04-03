@@ -170,7 +170,7 @@ const Reviews = () => {
               onClick={slidePrev}
             >
               <Image
-                src="/profile/right.png"
+                src="https://drive.google.com/uc?export=view&id=1MaisIp3dGz0ZYCRuB8j0DcWFuiiaUUpQ"
                 alt="Previous"
                 width={30}
                 height={30}
@@ -216,7 +216,7 @@ const Reviews = () => {
               onClick={slideNext}
             >
               <Image
-                src="/profile/right.png"
+                src="https://drive.google.com/uc?export=view&id=1MaisIp3dGz0ZYCRuB8j0DcWFuiiaUUpQ"
                 alt="Next"
                 width={30}
                 height={30}

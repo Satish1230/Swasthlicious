@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image"; // If you’re using Next.js
 import styles from "./SubscriptionSection.module.css";
@@ -23,7 +24,17 @@ export default function SubscriptionSection() {
             />
           </div>
 
-          <button className={styles.subscribeBtn}>Subscribe Now</button>
+          <button
+            className={styles.subscribeBtn}
+            onClick={() =>
+              window.open(
+                "https://forms.gle/HUFnoTiq24m6aTdA8", // Replace with your actual form URL
+                "_blank"
+              )
+            }
+          >
+            Subscribe Now
+          </button>
         </div>
 
         <div className={styles.sidemeals}>
